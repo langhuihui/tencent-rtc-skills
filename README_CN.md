@@ -50,6 +50,16 @@
 | **Call (TUICallKit)** | 1对1 或多人音视频通话 | Web (Vue/React)、Android、iOS、Flutter |
 | **Live (TUILiveKit)** | 直播，主播/观众模式 | Web (Vue)、Android、iOS、Flutter |
 
+## 📁 技能目录结构
+
+| 目录 | 用途 | 说明 |
+|------|------|------|
+| **call/** | TUICallKit 集成 | 实现音视频通话功能的技能包 |
+| **chat/** | TUIKit 集成 | 实现即时通讯功能的技能包 |
+| **live/** | TUILiveKit 集成 | 实现直播功能的技能包 |
+| **live-manager/** | 后端环境自动化配置 | 自动化配置 TUILiveKit 服务端环境和依赖 |
+| **room/** | TUIRoomKit 集成 | 实现视频会议功能的技能包 |
+
 ## ✅ 前置条件
 
 在安装 Skills 之前，请确保您已具备：

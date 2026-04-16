@@ -52,6 +52,16 @@ These Skills support the following Tencent RTC products:
 | **Call (TUICallKit)** | 1-to-1 or group audio/video calls | Web (Vue/React), Android, iOS, Flutter |
 | **Live (TUILiveKit)** | Live streaming with host/audience | Web (Vue), Android, iOS, Flutter |
 
+## 📁 Skills Structure
+
+| Directory | Purpose | Description |
+|-----------|---------|-------------|
+| **call/** | TUICallKit integration | Skills for implementing audio/video call features |
+| **chat/** | TUIKit integration | Skills for implementing instant messaging features |
+| **live/** | TUILiveKit integration | Skills for implementing live streaming features |
+| **live-manager/** | Backend setup automation | Automated environment setup and configuration for TUILiveKit server |
+| **room/** | TUIRoomKit integration | Skills for implementing video conferencing features |
+
 ## ✅ Prerequisites
 
 Before installing, ensure you have:
